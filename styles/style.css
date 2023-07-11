@@ -129,6 +129,7 @@
     justify-content: space-around;
     align-items: center;
     height: 500px;
+ 
 }
 .left1{
     width: 500px;
@@ -136,10 +137,47 @@
 }
 .left1>h3{
     font-size: 28px;
+    margin-bottom: 30px;
+}
+.left1>a{
+    font-size: 10px;
+    margin-bottom: 20px;
 }
 span{
     color:red;
 }
 .right1>img{
     width: 200px;
+}
+
+.instagram{
+    height: 500px;
+    text-align: center;
+}
+.ins{
+    height: 200px;
+    padding-top: 50px;
+}
+.idis{
+    font-size: 10px;
+    padding:20px;
+}
+.inss{
+    background-color: honeydew;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap:10px;
+    margin: -50px;
+    
+}
+.photo1{
+    width: 200px;
+    height: 250px;
+}
+.photo1>img{
+    width: 200px;
+    height: 250px;
 }
