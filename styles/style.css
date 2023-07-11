@@ -3,6 +3,32 @@
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 70px;
+}
+.name{
+    color:white;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.menu{
+    margin-top: 25px;
+}
+li{
+    list-style: none;
+    display:inline;
+    margin: 10px;
+    
+    
+}
+li>a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
 .upper-section{
     height: 488px;
     background-color: antiquewhite;
@@ -49,7 +75,7 @@
 }
 
 .feture{
-    height: 200px;
+    height: 100px;
     text-align: center;
     margin: 40px;
 }
@@ -123,6 +149,19 @@
 .tree>.box1>a{
     color:black;
     margin-top: 50px;
+}
+.optional{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    display: 50%;
+    height: 200px;
+    margin:100px;
+    text-align: center;
+    background-color: beige;
+}
+.logo1{
+    padding: 20px;
 }
 .container{
     display: flex;
