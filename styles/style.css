@@ -181,3 +181,24 @@ span{
     width: 200px;
     height: 250px;
 }
+.deals{
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-position:center;
+    background-size: cover;
+}
+.deal{
+    margin-top: 50px;
+    padding-top: 50px;
+
+}
+.search{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
